@@ -17,9 +17,9 @@ Recopilación de buenas prácticas programando en Javascript, inspirado en el li
 # Variables
   Para mejorar la legibilidad y mantenibilidad de tu código, haciendo que sea más fácil de entender y menos propenso a errores, la consistencia en la elección de nombres es clave para desarrollar un código limpio y comprensible.
 
-## A - Nombrando variables :
+## Nombrando variables :
 
-### 1. Utiliza nombres descriptivos :
+### Utiliza nombres descriptivos:
 Al elegir nombres para tus variables, elige palabras que describan claramente el propósito o contenido de la variable. Esto facilita la comprensión del código.
 
 ❌ Ejemplo incorrecto:
@@ -32,7 +32,7 @@ let x = 'Pedro';
 let nombreUsuario = 'Pedro';
 ```
 
-### 2. Evita nombres de una sola letra, a menos que sea un bucle o casos muy específicos, utiliza nombres que indiquen un propósito o significado :
+### Evita nombres de una sola letra, a menos que sea un bucle o casos muy específicos, utiliza nombres que indiquen un propósito o significado :
 Nombres de una sola letra como x o y pueden ser confusos y no ofrecen información sobre el propósito de la variable. Elige nombres que reflejen el propósito o significado de la variable para que cualquiera que lea el código pueda entender su función.
 
 ❌ Ejemplo incorrecto:
@@ -44,7 +44,7 @@ let y = 10;
 ```
 let contador = 10;
 ```
-### 3. Utiliza camelCase para nombrar variables :
+### Utiliza camelCase para nombrar variables :
 CamelCase es una convención de escritura que capitaliza la primera letra de cada palabra, excepto la primera. Esto hace que los nombres de variables sean más legibles.
 
 ❌ Ejemplo incorrecto:
@@ -56,7 +56,7 @@ let nombreusuario = 'Pedro';
 ```
 let nombreUsuario = 'Pedro';
 ```
-### 4. Prefijo para variables constantes:
+### Prefijo para variables constantes:
 Al declarar constantes, es una buena práctica utilizar un prefijo que las distinga claramente como constantes.
 
 ❌ Ejemplo incorrecto:
@@ -68,7 +68,7 @@ const PI = 3.14;
 ```
 const PI_VALUE = 3.14;
 ```
-### 5. Sé consistente en el uso de nombres:
+### Sé consistente en el uso de nombres:
 Mantén la consistencia en la elección de nombres para variables relacionadas. Esto facilita la lectura y comprensión del código.
 
 ❌ Ejemplo incorrecto:
@@ -94,7 +94,7 @@ let calc = (a, b) => a * b;
 ```
 let calcularMultiplicacion = (a, b) => a * b;
 ```
-### 7. Prefijo para variables booleanas:
+### Prefijo para variables booleanas:
 Al usar variables booleanas, es una buena práctica agregar un prefijo que indique claramente que es un valor booleano.
 
 ❌ Ejemplo incorrecto:
@@ -107,9 +107,9 @@ let mayorDeEdad = true;
 let esMayorDeEdad = true;
 ```
 
-## B - Usando variables :
+## Usando variables :
 
-### 1. Limita el alcance de las variables:
+### Limita el alcance de las variables:
 Limita el alcance de las variables tanto como sea posible. Utiliza const y let según corresponda y evita declarar variables en un ámbito global a menos que sea necesario.
 
 ❌ Ejemplo incorrecto:
@@ -128,7 +128,7 @@ function calcular() {
   return resultado;
 }
 ```
-### 2. Evita mutaciones inesperadas :
+### Evita mutaciones inesperadas :
 Trata de no modificar variables fuera de su ámbito original, especialmente en funciones o bloques de código diferentes. Esto ayuda a prevenir comportamientos inesperados y facilita el rastreo de errores.
 
 ❌ Ejemplo incorrecto:
@@ -148,7 +148,7 @@ function calcularTotal(valor) {
   return totalLocal;
 }
 ```
-### 3. Refactoriza código :
+### Refactoriza código :
 Si encuentras que estás usando la misma lógica con diferentes variables, considera refactorizar para eliminar duplicados y hacer tu código más conciso.
 
 ❌ Ejemplo incorrecto:
@@ -170,7 +170,7 @@ let precio2 = 20;
 let total1 = calcularTotal(precio1);
 let total2 = calcularTotal(precio2);
 ```
-### 4. Asignación desestructurada para objetos y matrices :
+### Asignación desestructurada para objetos y matrices :
 Utiliza la asignación desestructurada para asignar variables a propiedades de objetos o elementos de matrices. Esto hace que el código sea más legible y conciso.
 
 ❌ Ejemplo incorrecto:
@@ -184,7 +184,7 @@ let edad = persona.edad;
 ```
 let { nombre, edad } = persona;
 ```
-### 5. Manejo adecuado de errores :
+### Manejo adecuado de errores :
 Si una variable puede contener un valor nulo o indefinido, asegúrate de manejar esos casos adecuadamente para evitar errores.
 
 ❌ Ejemplo incorrecto: 
