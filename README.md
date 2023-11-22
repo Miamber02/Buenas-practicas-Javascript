@@ -68,7 +68,7 @@ const PI = 3.14;
 ```
 const PI_VALUE = 3.14;
 ```
-### Sé consistente en el uso de nombres:
+### Se consistente en el uso de nombres:
 Mantén la consistencia en la elección de nombres para variables relacionadas. Esto facilita la lectura y comprensión del código.
 
 ❌ Ejemplo incorrecto:
@@ -82,7 +82,7 @@ let idClient = 2;
 let usuarioId = 1;
 let clienteId = 2;
 ```
-### 6. Evita abreviaturas confusas:
+### Evita abreviaturas confusas:
 Si bien algunas abreviaturas son comunes y ampliamente comprendidas, evita abreviaturas que puedan ser confusas o poco claras.
 
 ❌ Ejemplo incorrecto:
