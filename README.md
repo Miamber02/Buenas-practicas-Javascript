@@ -1011,7 +1011,7 @@ class Videojuego extends Consola{
 
 ### Explicacion
 
-El siguiente ejemplo esta mal porque se está aplicando un uso incorrecto de la herencia. 
+El anterior ejemplo esta mal porque se está aplicando un uso incorrecto de la herencia. 
 
 Cuando hablamos de que una clase presenta una relacion 'tiene un', nos esta dejando a entender que en esa clase debe actuar el fenómeno de la composición y no el de la herencia.
 
@@ -1060,7 +1060,7 @@ class Consola {
 
   ### Explicacion
 
-  El siguiente ejemplo si esta bien hecho porque aplica correctamente el fenómeno de la composición.
+  Este ejemplo si esta bien hecho porque aplica correctamente el fenómeno de la composición.
   
 ⬆[Indice](#indice)⬆
 
