@@ -553,25 +553,25 @@ const datosSalidaProgramadores = [
  const datosSalidaProgramadores = [
     {
       nombre: "Uncle Bobby",
-      liniasDeCodigo: 500
+      lineasDeCodigo: 500
     },
     {
       nombre: "Suzie Q",
-      liniasDeCodigo: 1500
+      lineasDeCodigo: 1500
     },
     {
       nombre: "Jimmy Gosling",
-      liniasDeCodigo: 150
+      lineasDeCodigo: 150
     },
     {
       nombre: "Gracie Hopper",
-      liniasDeCodigo: 1000
+      lineasDeCodigo: 1000
     }
   ];
   
   const salidaFinal = datosSalidaProgramadores
     .map(salida => salida.linesOfCode)
-    .reduce((totalLinias, linias) => totalLinias + linias);
+    .reduce((totalLineas, lineas) => totalLineas + lineas);
 ```
 
 ## ENCAPSULA LOS CONDICIONALES
