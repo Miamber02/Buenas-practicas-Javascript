@@ -921,7 +921,7 @@ televisor.importe();
 
 ### Explicacion
 
-El siguiente codigo no esta bien implementado porque no utiliza la anidacion de funciones.
+El anterior codigo no esta bien implementado porque no utiliza la anidacion de funciones.
 
 ✅ Ejemplo correcto:
 
@@ -977,7 +977,7 @@ const televisor = new Televisor("TV Samsung MP45","Samsung",300,2,40)
 
 ### Explicacion
 
-En el siguiente codigo se hace uso del anidamiento de funciones, logrando una mayor expresividad a nuestro código.
+En el anterior codigo se hace uso del anidamiento de funciones, logrando una mayor expresividad a nuestro código.
 
 ## Prioriza la composición en vez de la herecia
 
