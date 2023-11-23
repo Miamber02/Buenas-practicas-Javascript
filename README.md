@@ -570,7 +570,7 @@ const datosSalidaProgramadores = [
   ];
   
   const salidaFinal = datosSalidaProgramadores
-    .map(salida => salida.linesOfCode)
+    .map(salida => salida.lineasDeCodigo)
     .reduce((totalLineas, lineas) => totalLineas + lineas);
 ```
 
