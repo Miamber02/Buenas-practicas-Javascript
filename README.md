@@ -526,26 +526,26 @@ Es recomendable usar la programación funcional porque te ahorra bastante códig
 const datosSalidaProgramadores = [
     {
       nombre: "Uncle Bobby",
-      liniasDeCodigo: 500
+      lineasDeCodigo: 500
     },
     {
       nombre: "Suzie Q",
-      liniasDeCodigo: 1500
+      lineasDeCodigo: 1500
     },
     {
       nombre: "Jimmy Gosling",
-      liniasDeCodigo: 150
+      lineasDeCodigo: 150
     },
     {
       nombre: "Gracie Hopper",
-      liniasDeCodigo: 1000
+      lineasDeCodigo: 1000
     }
   ];
   
   let salidaFinal = 0;
   
   for (let i = 0; i < datosSalidaProgramadores.length; i++) {
-    salidaFinal += datosSalidaProgramadores[i].liniasDeCodigo;
+    salidaFinal += datosSalidaProgramadores[i].lineasDeCodigo;
   }
 ```
 ✅ Ejemplo correcto:
