@@ -7,7 +7,7 @@ Recopilación de buenas prácticas programando en Javascript, inspirado en el li
 - [Funciones](#funciones)
 - [Objetos y estructuras de datos](#objetos-y-estructuras-de-datos)
 - [Clases](#clases)
-- [Principios Solid](#principios-solid)
+- [Principios SOLID](#principios-solid)
 - [Concurrencia](#concurrencia)
 - [Manejo de errores](#manejo-de-errores)
 - [Formato](#formato)
