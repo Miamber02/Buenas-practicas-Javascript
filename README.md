@@ -23,12 +23,12 @@ Recopilación de buenas prácticas programando en Javascript, inspirado en el li
 Al elegir nombres para tus variables, elige palabras que describan claramente el propósito o contenido de la variable. Esto facilita la comprensión del código.
 
 ❌ Ejemplo incorrecto:
-```
+```javascript
 let x = 'Pedro';
 ```
 
 ✅ Ejemplo correcto:
-```
+```javascript
 let nombreUsuario = 'Pedro';
 ```
 
@@ -36,43 +36,43 @@ let nombreUsuario = 'Pedro';
 Nombres de una sola letra como x o y pueden ser confusos y no ofrecen información sobre el propósito de la variable. Elige nombres que reflejen el propósito o significado de la variable para que cualquiera que lea el código pueda entender su función.
 
 ❌ Ejemplo incorrecto:
-```
+```javascript
 let y = 10;
 ```
 
 ✅ Ejemplo correcto:
-```
+```javascript
 let contador = 10;
 ```
 ### Utiliza camelCase para nombrar variables :
 CamelCase es una convención de escritura que capitaliza la primera letra de cada palabra, excepto la primera. Esto hace que los nombres de variables sean más legibles.
 
 ❌ Ejemplo incorrecto:
-```
+```javascript
 let nombreusuario = 'Pedro';
 ```
 
 ✅ Ejemplo correcto:
-```
+```javascript
 let nombreUsuario = 'Pedro';
 ```
 ### Prefijo para variables constantes:
 Al declarar constantes, es una buena práctica utilizar un prefijo que las distinga claramente como constantes.
 
 ❌ Ejemplo incorrecto:
-```
+```javascript
 const PI = 3.14;
 ```
 
 ✅ Ejemplo correcto:
-```
+```javascript
 const PI_VALUE = 3.14;
 ```
 ### Se consistente en el uso de nombres:
 Mantén la consistencia en la elección de nombres para variables relacionadas. Esto facilita la lectura y comprensión del código.
 
 ❌ Ejemplo incorrecto:
-```
+```javascript
 let usuarioId = 1;
 let idClient = 2;
 ```
