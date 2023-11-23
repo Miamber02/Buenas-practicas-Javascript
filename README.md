@@ -789,7 +789,7 @@ console.log(persona2.cogerNombre())
 
 # Clases
 
-## Prioriza las classes de ES2015/ES6 antes que las funciones planas de ES50
+## Prioriza las clases de ES2015/ES6 antes que las funciones planas de ES5
 
 Es muy complicado de conseguir que un código sea entendible y fácil de leer con herencia de clases, construcción y metodos típicos de clases con las clases de ES5. Si necesitas herencia (y de seguro, que no la necesitas) entonces, dale prioridad a las clases ES2015/ES6.
 
