@@ -78,7 +78,7 @@ let idClient = 2;
 ```
 
 ✅ Ejemplo correcto:
-```
+```javascript
 let usuarioId = 1;
 let clienteId = 2;
 ```
@@ -86,24 +86,24 @@ let clienteId = 2;
 Si bien algunas abreviaturas son comunes y ampliamente comprendidas, evita abreviaturas que puedan ser confusas o poco claras.
 
 ❌ Ejemplo incorrecto:
-```
+```javascript
 let calc = (a, b) => a * b;
 ```
 
 ✅ Ejemplo correcto:
-```
+```javascript
 let calcularMultiplicacion = (a, b) => a * b;
 ```
 ### Prefijo para variables booleanas:
 Al usar variables booleanas, es una buena práctica agregar un prefijo que indique claramente que es un valor booleano.
 
 ❌ Ejemplo incorrecto:
-```
+```javascript
 let mayorDeEdad = true;
 ```
 
 ✅ Ejemplo correcto:
-```
+```javascript
 let esMayorDeEdad = true;
 ```
 
@@ -113,7 +113,7 @@ let esMayorDeEdad = true;
 Limita el alcance de las variables tanto como sea posible. Utiliza const y let según corresponda y evita declarar variables en un ámbito global a menos que sea necesario.
 
 ❌ Ejemplo incorrecto:
-```
+```javascript
 let resultado;
 
 function calcular() {
@@ -122,7 +122,7 @@ function calcular() {
 ```
 
 ✅ Ejemplo correcto:
-```
+```javascript
 function calcular() {
   let resultado = 6;
   return resultado;
@@ -132,7 +132,7 @@ function calcular() {
 Trata de no modificar variables fuera de su ámbito original, especialmente en funciones o bloques de código diferentes. Esto ayuda a prevenir comportamientos inesperados y facilita el rastreo de errores.
 
 ❌ Ejemplo incorrecto:
-```
+```javascript
 let total = 0;
 
 function agregarAlTotal(valor) {
@@ -141,7 +141,7 @@ function agregarAlTotal(valor) {
 ```
 
 ✅ Ejemplo correcto:
-```
+```javascript
 function calcularTotal(valor) {
   let totalLocal = 0;
   totalLocal += valor;
@@ -152,7 +152,7 @@ function calcularTotal(valor) {
 Si encuentras que estás usando la misma lógica con diferentes variables, considera refactorizar para eliminar duplicados y hacer tu código más conciso.
 
 ❌ Ejemplo incorrecto:
-```
+```javascript
 let precio1 = 10;
 let precio2 = 20;
 let total1 = precio1 * 2;
@@ -160,7 +160,7 @@ let total2 = precio2 * 2;
 ```
 
 ✅ Ejemplo correcto: 
-```
+```javascript
 function calcularTotal(precio) {
   return precio * 2;
 }
@@ -174,27 +174,27 @@ let total2 = calcularTotal(precio2);
 Utiliza la asignación desestructurada para asignar variables a propiedades de objetos o elementos de matrices. Esto hace que el código sea más legible y conciso.
 
 ❌ Ejemplo incorrecto:
-```
+```javascript
 let nombre = persona.nombre;
 let edad = persona.edad;
 
 ```
 
 ✅ Ejemplo correcto:
-```
+```javascript
 let { nombre, edad } = persona;
 ```
 ### Manejo adecuado de errores :
 Si una variable puede contener un valor nulo o indefinido, asegúrate de manejar esos casos adecuadamente para evitar errores.
 
 ❌ Ejemplo incorrecto: 
-```
+```javascript
 let nombreUsuario = usuario.nombre;
 
 ```
 
 ✅ Ejemplo correcto:
-```
+```javascript
 let nombreUsuario = usuario ? usuario.nombre : 'Usuario Desconocido';
 ```
 ⬆[Indice](#indice)⬆
@@ -714,7 +714,7 @@ function nuevoModuloDePeticiones(url) {
 
 # Objetos y estructuras de datos
 
-## Utitliza setters y getters
+## Utiliza setters y getters
 Para acceder a las propiedades del objeto mejor usar los getters y setters antes que llamar a los atributos del objeto
 
 ❌ Ejemplo incorrecto:
