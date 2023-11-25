@@ -1182,13 +1182,13 @@ Este principio establece que un objeto no necesita implementar interfaces que no
 class NavajaSuiza {
     atornillar(){}
     cortar(){}
-    pedestal(){}
+    pedernal(){}
 }
 
 class HerramientasDeFuego extends NavajaSuiza {
     atornillar(){}
     cortar(){}
-    pedestal(){}
+    pedernal(){}
 }
 ```
 ### Explicación:
@@ -1205,7 +1205,7 @@ class Herramientas extends NavajaSuiza {
 }
 
 class HerramientasDeFuego extends NavajaSuiza {
-    pedestal(){}
+    pedernal(){}
 }
 ```
 
@@ -1242,7 +1242,7 @@ class LadrilloAzul extends Ladrillo{
     color:azul;
 }
 
-class LadrilloRojo {
+class LadrilloRojo extends Ladrillo{
     color:rojo;
 }
 
